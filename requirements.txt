@@ -1,0 +1,23 @@
+# Web UI
+streamlit==1.30.0
+
+# Environment variable management
+python-dotenv==1.0.0
+
+# LangChain core
+langchain==0.3.70
+langchain-huggingface==0.3.1
+
+# HuggingFace client
+huggingface-hub==0.17.4
+
+# Vector store for embeddings
+faiss-cpu==1.7.4
+
+# Optional for Django integration (if used in project)
+Django==4.3.4
+
+# Optional dependencies for NLP / ML
+torch==2.3.1
+transformers==4.36.0
+tokenizers==0.22.1
